@@ -4,6 +4,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 public class testDie {
 
+    //test här
     @ParameterizedTest
     @ValueSource(ints = {4,6,8,10,12,20,100})
     void testDieClass(int input){
